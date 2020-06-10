@@ -26,7 +26,7 @@ namespace AsyncAwaitCore
             for (int i = 0; i < 10; i++)
             {
                 value += i;
-                Thread.Sleep(100);
+                Thread.Sleep(1000);
             }
 
             Console.WriteLine($"Cal Thread ID is {Thread.CurrentThread.ManagedThreadId}.");
